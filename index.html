@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./favicon/favicon-96x96.png"> 
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+   <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <title> Calculator</title>
+</head>
+
+<body>
+
+    <!--Here creating a Calculator using table and therefore creating a container-->
+  <div class="container">
+    <table>
+<!--For Display Screen-->
+        <tr>
+            <td colspan="4" id="display">0</td>
+        </tr>
+<tr>
+    <!--For Buttons-->
+    <td colspan="3"><button onclick="pushBtn(this);">AC</button></td>
+    <td><button onclick="pushBtn(this);">/</button></td>
+</tr>
+
+<tr>
+    <td><button onclick="pushBtn(this);">7</button></td>
+    <td><button onclick="pushBtn(this);" >8</button></td>
+    <td><button onclick="pushBtn(this);">9</button></td>
+    <td><button onclick="pushBtn(this);">*</button></td>
+</tr>
+
+<tr>
+    <td><button onclick="pushBtn(this);">4</button></td>
+    <td><button onclick="pushBtn(this);">5</button></td>
+    <td><button onclick="pushBtn(this);">6</button></td>
+    <td><button onclick="pushBtn(this);">-</button></td>
+</tr>
+
+<tr>
+    <td><button onclick="pushBtn(this);">1</button></td>
+    <td><button onclick="pushBtn(this);">2</button></td>
+    <td><button onclick="pushBtn(this);">3</button></td>
+    <td><button onclick="pushBtn(this);">+</button></td>
+</tr>
+<tr>
+    <td colspan="2"><button onclick="pushBtn(this);">0</button></td>
+    <td><button onclick="pushBtn(this);">.</button></td>
+    <td><button onclick="pushBtn(this);">=</button></td>
+</tr>
+
+</table>
+        </div>  
+
+<script src="script.js"></script>
+</body>
+
+</html>
