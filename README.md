@@ -5,7 +5,7 @@
 * Transition using CSS
 * eval for calculation and If statement for logical selecttion using Javascript
 
-### Please find video demo of the Calculator
+### Please find the demo video of the Calculator
 
 
 
